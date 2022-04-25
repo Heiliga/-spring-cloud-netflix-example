@@ -28,7 +28,7 @@ import static springfox.documentation.builders.RequestHandlerSelectors.withClass
  */
 @EnableEurekaClient
 @EnableHystrix
-@EnableFeignClients
+@EnableFeignClients(basePackages = {"net.devh.feign"})
 @SpringBootApplication
 @EnableSwagger2
 public class A1ServiceApplication {

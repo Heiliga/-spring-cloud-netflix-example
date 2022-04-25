@@ -1,1 +1,4 @@
 name: michael
+eureka:
+  client:
+    fetch-registry: true
